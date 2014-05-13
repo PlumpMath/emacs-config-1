@@ -1,0 +1,518 @@
+For all major modes:
+  38672   32.83%  self-insert-command                                  
+  20098   17.06%  next-line                                            C-k, <down>
+  15350   13.03%  previous-line                                        C-l, <up>
+   3335    2.83%  forward-char                                         C-;, <right>
+   2453    2.08%  paredit-backward-delete                              <del>
+   2434    2.07%  markdown-exdent-or-delete                            <del>
+   2124    1.80%  left-char                                            C-j, <left>
+   1924    1.63%  mwheel-scroll                                        <C-wheel-down>, <S-wheel-down>, <wheel-down>, <C-wheel-up>, <S-wheel-up>, <wheel-up>
+   1915    1.63%  delete-backward-char                                 <del>
+   1825    1.55%  sp-backward-delete-char                              <del>
+   1740    1.48%  backward-char                                        C-j
+   1190    1.01%  sp--self-insert-command                              `, ], [, ', ", }, {, ), (, \
+    955    0.81%  other-window                                         (orig C-x o)
+    803    0.68%  move-end-of-line                                     C-e
+    704    0.60%  save-buffer                                          s-s, C-x C-s, <menu-bar> <file> <save-buffer>
+    673    0.57%  isearch-printing-char                                
+    661    0.56%  end-of-visual-line                                   C-e
+    638    0.54%  paredit-open-round                                   
+    638    0.54%  sp-forward-sexp                                      C-M-f
+    602    0.51%  ido-exit-minibuffer                                  
+    539    0.46%  sp-backward-sexp                                     C-M-b
+    531    0.45%  smex                                                 C-x RET, M-x
+    517    0.44%  er/expand-region                                     C-d, C-=
+    514    0.44%  cua-scroll-down                                      <kp-prior>, <prior>
+    505    0.43%  cua-scroll-up                                        <kp-next>, <next>
+    502    0.43%  nrepl-return                                         
+    477    0.40%  newline-and-indent                                   C-j
+    376    0.32%  backward-delete-char-untabify                        DEL
+    366    0.31%  grizzl-set-selection+1                               
+    360    0.31%  markdown-enter-key                                   
+    348    0.30%  ido-next-match                                       
+    339    0.29%  newline                                              RET
+    336    0.29%  beginning-of-visual-line                             C-a
+    331    0.28%  nrepl-backward-input                                 
+    329    0.28%  subword-backward                                     
+    311    0.26%  mouse-drag-region                                    <down-mouse-1>
+    300    0.25%  ac-expand                                            
+    289    0.25%  undo-tree-undo                                       C-_, C-/, <menu-bar> <edit> <undo>, C-z, s-z, <undo>
+    282    0.24%  cua-paste                                            C-v, C-y, s-v, <S-insertchar>, <S-insert>, <menu-bar> <edit> <paste>
+    275    0.23%  isearch-repeat-forward                               
+    272    0.23%  prelude-move-beginning-of-line                       
+    261    0.22%  minibuffer-keyboard-quit                             
+    257    0.22%  mouse-set-point                                      <triple-mouse-1>, <double-mouse-1>, <mouse-1>
+    252    0.21%  ido-delete-backward-updir                            
+    246    0.21%  ac-complete                                          
+    239    0.20%  subword-forward                                      
+    221    0.19%  isearch-other-control-char                           
+    219    0.19%  right-char                                           <right>
+    210    0.18%  cua-set-mark                                         C-@, C-SPC
+    193    0.16%  grizzl-set-selection-1                               
+    183    0.16%  forward-paragraph                                    <C-down>, M-}
+    180    0.15%  backward-kill-word                                   M-DEL
+    179    0.15%  cua--prefix-override-handler                         
+    172    0.15%  ido-switch-buffer                                    C-x b, <menu-bar> <buffer> <select-named-buffer>
+    160    0.14%  ace-jump-move                                        
+    159    0.13%  exit-minibuffer                                      
+    153    0.13%  cider-repl-return                                    
+    153    0.13%  ace-jump-word-mode                                   <key-chord> j j
+    149    0.13%  cua-resize-rectangle-right                           
+    148    0.13%  indent-for-tab-command                               
+    147    0.12%  nrepl-load-file                                      
+    136    0.12%  paredit-kill                                         
+    136    0.12%  isearch-forward                                      C-s, <menu-bar> <edit> <search> <i-search> <isearch-forward>
+    127    0.11%  helm-next-line                                       
+    126    0.11%  keyboard-quit                                        C-g
+    124    0.11%  dired-next-line                                      
+    123    0.10%  backward-word                                        M-b, ESC <left>
+    120    0.10%  smart-tab                                            <tab>, TAB
+    120    0.10%  prelude-recentf-ido-find-file                        s-r, C-c f
+    119    0.10%  cua-copy-region                                      
+    102    0.09%  isearch-delete-char                                  
+    100    0.08%  cua-resize-rectangle-down                            
+    100    0.08%  paredit-doublequote                                  
+     99    0.08%  dired-previous-line                                  
+     99    0.08%  ido-kill-buffer                                      C-x k
+     97    0.08%  paredit-forward-slurp-sexp                           
+     97    0.08%  winner-undo                                          C-c <left>
+     96    0.08%  ido-find-file                                        <open>, C-x C-f, <menu-bar> <file> <new-file>
+     93    0.08%  quit-window                                          
+     92    0.08%  paredit-semicolon                                    
+     90    0.08%  cider-repl-backward-input                            
+     87    0.07%  delete-other-windows                                 C-x 1, <menu-bar> <file> <one-window>
+     82    0.07%  nrepl-bol                                            
+     81    0.07%  describe-key                                         C-h k, <f1> k, <help> k, <menu-bar> <help-menu> <describe> <describe-key-1>
+     79    0.07%  helm-previous-line                                   
+     79    0.07%  sp-kill-hybrid-sexp                                  C-k, <deleteline>
+     76    0.06%  cua-delete-region                                    
+     75    0.06%  forward-word                                         M-f, ESC <right>
+     74    0.06%  hippie-expand                                        s-/, M-/
+     71    0.06%  windmove-up                                          <S-up>
+     71    0.06%  sp--cua-replace-region                               
+     67    0.06%  windmove-down                                        <S-down>
+     67    0.06%  ac-next                                              
+     64    0.05%  ido-prev-match                                       
+     64    0.05%  isearch-exit                                         
+     63    0.05%  delete-blank-lines                                   C-x C-o
+     59    0.05%  paredit-open-square                                  
+     58    0.05%  nrepl-forward-input                                  
+     58    0.05%  mouse-minor-mode-menu                                
+     58    0.05%  cua-cut-region                                       
+     57    0.05%  projectile-switch-project                            C-c p s, s-p, <menu-bar> <tools> <Projectile> <Switch to project>
+     54    0.05%  ibuffer                                              C-x C-b
+     53    0.04%  backward-paragraph                                   <C-up>, M-{
+     53    0.04%  windmove-left                                        <S-left>
+     52    0.04%  cider-eval-last-sexp                                 
+     52    0.04%  windmove-right                                       <S-right>
+     51    0.04%  join-line                                            
+     50    0.04%  projectile-find-file                                 C-c p f, s-f, <menu-bar> <tools> <Projectile> <Find file>
+     49    0.04%  isearch-abort                                        
+     49    0.04%  recenter-top-bottom                                  C-l
+     49    0.04%  ac-nrepl-popup-doc                                   
+     47    0.04%  nrepl-eval-last-expression                           
+     44    0.04%  split-window-right                                   C-x 3, <menu-bar> <file> <new-window-on-right>
+     44    0.04%  cua-insert-char-rectangle                            
+     44    0.04%  split-window-below                                   C-x 2, <menu-bar> <file> <new-window-below>
+     41    0.03%  helm-prelude                                         C-c h, <menu-bar> <tools> <Prelude> <Navigation> <Helm>
+     40    0.03%  cider-repl-bol                                       
+     39    0.03%  ibuffer-visit-buffer                                 
+     38    0.03%  kill-visual-line                                     
+     37    0.03%  ibuffer-mark-for-delete                              
+     37    0.03%  end-of-buffer                                        <kp-end>, <C-end>, <end>, M->, <menu-bar> <edit> <goto> <end-of-buf>
+     37    0.03%  cua-toggle-rectangle-mark                            
+     36    0.03%  paredit-splice-sexp                                  
+     36    0.03%  kill-line                                            C-k, <deleteline>
+     36    0.03%  helm-exit-minibuffer                                 
+     35    0.03%  dired-find-file                                      
+     34    0.03%  package-list-packages                                <menu-bar> <options> <package>
+     33    0.03%  cua-rotate-rectangle                                 
+     32    0.03%  eval-last-sexp                                       <menu-bar> <emacs-lisp> <eval-sexp>, C-x C-e
+     32    0.03%  backward-sexp                                        ESC <C-left>
+     31    0.03%  ido-complete                                         
+     31    0.03%  minibuffer-complete                                  
+     30    0.03%  paredit-close-round                                  
+     30    0.03%  cua-resize-rectangle-up                              
+     30    0.03%  mouse-select-window                                  <vertical-line> <mouse-1>, <header-line> <mouse-1>, <mode-line> <drag-mouse-1>, <mode-line> <mouse-1>
+     30    0.03%  sp-backward-kill-word                                M-DEL
+     29    0.02%  nrepl-ritz-compile-expression                        
+     29    0.02%  package-menu-execute                                 
+     28    0.02%  next-history-element                                 
+     28    0.02%  dired-next-dirline                                   
+     27    0.02%  paredit-forward                                      
+     27    0.02%  smex-major-mode-commands                             M-X
+     26    0.02%  previous-history-element                             
+     26    0.02%  nrepl-jack-in                                        
+     26    0.02%  prelude-kill-whole-line                              s-k, <C-S-backspace>
+     25    0.02%  package-menu-mark-upgrades                           
+     25    0.02%  paredit-backslash                                    
+     25    0.02%  delete-window                                        C-x 0
+     25    0.02%  erc-send-current-line                                
+     25    0.02%  helm-keyboard-quit                                   
+     23    0.02%  paredit-backward-kill-word                           
+     23    0.02%  nrepl-close                                          
+     23    0.02%  indent-region                                        <menu-bar> <emacs-lisp> <indent-region>
+     21    0.02%  dired-prev-dirline                                   
+     21    0.02%  paredit-forward-barf-sexp                            
+     21    0.02%  isearch-repeat-backward                              
+     21    0.02%  isearch-backward                                     C-r, <menu-bar> <edit> <search> <i-search> <isearch-backward>
+     21    0.02%  helm-projectile                                      C-c p h
+     21    0.02%  undefined                                            
+     19    0.02%  ibuffer-quit                                         
+     19    0.02%  cua-set-rectangle-mark                               <C-return>
+     18    0.02%  prelude-swap-windows                                 C-c s, <menu-bar> <tools> <Prelude> <Windows> <Swap windows>
+     18    0.02%  cider-jack-in                                        
+     17    0.01%  magit-status                                         s-m m, C-x g
+     17    0.01%  paredit-forward-down                                 
+     17    0.01%  quoted-insert                                        C-q
+     16    0.01%  paredit-close-square                                 
+     16    0.01%  comint-send-input                                    
+     16    0.01%  widget-button-click                                  
+     16    0.01%  ido-complete-space                                   
+     16    0.01%  helm-execute-persistent-action                       
+     15    0.01%  dired                                                s-D, C-x d, <menu-bar> <file> <dired>
+     15    0.01%  dired-up-directory                                   
+     14    0.01%  set-fill-column                                      C-x f
+     14    0.01%  paredit-comment-dwim                                 
+     14    0.01%  help-for-help                                        C-h ?, C-h <f1>, C-h <help>, C-h C-h, <f1> ?, <f1> <f1>, <f1> <help>, <f1> C-h, <help> ?, <help> <f1>, <help> <help>, <help> C-h
+     14    0.01%  paredit-backward-up                                  
+     14    0.01%  magit-quit-window                                    
+     14    0.01%  end-of-defun                                         <C-M-end>, C-M-e, ESC <C-end>
+     14    0.01%  eval-expression                                      M-:, M-ESC :
+     14    0.01%  prelude-open-with                                    C-c o, <menu-bar> <tools> <Prelude> <Files> <Open with...>
+     14    0.01%  cua-resize-rectangle-left                            
+     14    0.01%  ns-copy-including-secondary                          s-c, <menu-bar> <edit> <copy>
+     13    0.01%  comment-region                                       <menu-bar> <emacs-lisp> <comment-region>
+     13    0.01%  forward-sexp                                         ESC <C-right>
+     13    0.01%  clojure-load-file                                    
+     12    0.01%  mark-defun                                           C-M-h
+     12    0.01%  quick-copy-line                                      
+     12    0.01%  prelude-kill-other-buffers                           C-c k, <menu-bar> <tools> <Prelude> <Buffers> <Kill other buffers>
+     12    0.01%  comment-dwim                                         M-;
+     12    0.01%  describe-variable                                    C-h v, <f1> v, <help> v, <menu-bar> <help-menu> <describe> <describe-variable>
+     11    0.01%  compile-goto-error                                   
+     11    0.01%  nrepl-set-ns                                         
+     11    0.01%  paredit-raise-sexp                                   
+     11    0.01%  paredit-reindent-defun                               
+     11    0.01%  nrepl-dbg-invoke-restart-0                           
+     11    0.01%  complete-symbol                                      
+     10    0.01%  where-is                                             C-h w, <f1> w, <help> w
+     10    0.01%  nrepl-interrupt                                      
+     10    0.01%  projectile-grep                                      C-c p g, s-g, <menu-bar> <tools> <Projectile> <Find in project (grep)>
+     10    0.01%  mouse-set-region                                     <drag-mouse-1>
+     10    0.01%  auto-complete                                        
+     10    0.01%  package-menu-mark-install                            
+      9    0.01%  dired-unmark-backward                                
+      9    0.01%  markdown-cycle                                       
+      9    0.01%  top-level                                            
+      9    0.01%  cua-clear-rectangle-mark                             
+      9    0.01%  cider-popup-buffer-quit-function                     
+      9    0.01%  cua-cancel                                           
+      8    0.01%  other-frame                                          s-`, C-x 5 o
+      8    0.01%  nrepl-popup-buffer-quit-function                     
+      8    0.01%  ido-delete-backward-word-updir                       
+      8    0.01%  dired-next-subdir                                    
+      8    0.01%  magit-toggle-section                                 
+      8    0.01%  isearch-nonincremental-exit-minibuffer               
+      8    0.01%  ibuffer-do-kill-on-deletion-marks                    
+      8    0.01%  nrepl-dbg-default-action                             
+      8    0.01%  ac-previous                                          
+      7    0.01%  cider-load-current-buffer                            
+      7    0.01%  cider-load-file                                      
+      7    0.01%  prelude-update                                       
+      7    0.01%  ido-magic-forward-char                               
+      7    0.01%  set-fill-prefix                                      C-x .
+      7    0.01%  count-lines-page                                     C-x l
+      7    0.01%  nrepl-eval-ns-form                                   
+      7    0.01%  cua-cut-rectangle                                    
+      7    0.01%  ediff-next-difference                                
+      7    0.01%  magit-visit-item                                     
+      7    0.01%  magit-show-item-or-scroll-up                         
+      7    0.01%  prelude-indent-region-or-buffer                      C-M-\
+      7    0.01%  beginning-of-buffer                                  <kp-home>, <begin>, <C-home>, <home>, M-<, <menu-bar> <edit> <goto> <beg-of-buf>
+      7    0.01%  describe-prefix-bindings                             
+      7    0.01%  projectile-switch-to-buffer                          C-c p b, <menu-bar> <tools> <Projectile> <Switch to buffer>
+      7    0.01%  prelude-indent-rigidly-and-copy-to-clipboard         C-c TAB, <menu-bar> <tools> <Prelude> <Editing> <Indent rigidly and copy to clipboard>
+      7    0.01%  cider-doc                                            
+      6    0.01%  erc                                                  
+      6    0.01%  push-button                                          
+      6    0.01%  paredit-mode                                         
+      6    0.01%  line-number-mode                                     <menu-bar> <options> <showhide> <line-number-mode>
+      6    0.01%  nrepl-toggle-pretty-printing                         
+      6    0.01%  winner-redo                                          C-c <right>
+      6    0.01%  cua-exchange-point-and-mark                          C-x C-x
+      6    0.01%  forward-sentence                                     M-e
+      6    0.01%  nrepl-pprint-eval-last-expression                    
+      6    0.01%  nrepl-load-current-buffer                            
+      6    0.01%  nrepl-dbg-invoke-restart-1                           
+      6    0.01%  nrepl-ritz-break-on-exception                        
+      6    0.01%  ido-toggle-prefix                                    
+      6    0.01%  jump-to-register                                     C-x r j
+      6    0.01%  describe-function                                    C-h f, <f1> f, <help> f, <menu-bar> <help-menu> <describe> <describe-function>
+      5    0.00%  org-store-link                                       
+      5    0.00%  nrepl-tab                                            
+      5    0.00%  paredit-close-round-and-newline                      
+      5    0.00%  nrepl-macroexpand-all                                
+      5    0.00%  prelude-move-line-down                               <menu-bar> <tools> <Prelude> <Editing> <Move line down>
+      5    0.00%  duplicate-current-line                               
+      5    0.00%  paredit-wrap-round                                   
+      5    0.00%  package-menu-describe-package                        
+      5    0.00%  ace-jump-done                                        
+      5    0.00%  nrepl-ritz-jack-in                                   
+      5    0.00%  kill-region                                          C-x <timeout>, C-w, s-x, <S-delete>, <menu-bar> <edit> <cut>
+      5    0.00%  projectile-find-dir                                  C-c p d, s-d, <menu-bar> <tools> <Projectile> <Find directory>
+      5    0.00%  delete-frame                                         s-w, C-x 5 0, <menu-bar> <file> <delete-this-frame>
+      5    0.00%  cider-repl-bol-mark                                  
+      5    0.00%  cider-repl-forward-input                             
+      5    0.00%  sp-up-sexp                                           C-M-n
+      4    0.00%  helm-mini                                            
+      4    0.00%  erc-bol                                              
+      4    0.00%  window-configuration-to-register                     C-x r w
+      4    0.00%  byte-recompile-directory                             <menu-bar> <emacs-lisp> <byte-recompile>
+      4    0.00%  ido-up-directory                                     
+      4    0.00%  mark-whole-buffer                                    s-a, C-x h, <menu-bar> <edit> <mark-whole-buffer>
+      4    0.00%  ace-jump-line-mode                                   <key-chord> l j, <key-chord> j l
+      4    0.00%  ace-jump-char-mode                                   <key-chord> k j, <key-chord> j k
+      4    0.00%  ido-magic-backward-char                              
+      4    0.00%  prelude-indent-buffer                                <menu-bar> <tools> <Prelude> <Editing> <Indent buffer>
+      4    0.00%  magit-goto-previous-section                          
+      4    0.00%  magit-key-mode-popup-pushing                         
+      4    0.00%  magit-key-mode-exec-at-point                         
+      4    0.00%  right-word                                           <M-right>
+      4    0.00%  dired-unmark                                         
+      4    0.00%  dired-prev-subdir                                    
+      4    0.00%  paredit-newline                                      
+      4    0.00%  mouse-drag-mode-line                                 <mode-line> <down-mouse-1>
+      4    0.00%  prelude-google                                       C-c g, <menu-bar> <tools> <Prelude> <General> <Search in Google>
+      4    0.00%  next-buffer                                          <XF86Forward>, C-x <C-right>, C-x <right>, <menu-bar> <buffer> <next-buffer>
+      4    0.00%  Custom-buffer-done                                   
+      4    0.00%  sp-forward-barf-sexp                                 <C-left>, C-}
+      4    0.00%  web-mode                                             
+      4    0.00%  ignore                                               <mouse-movement>
+      4    0.00%  byte-compile-file                                    
+      4    0.00%  left-word                                            <M-left>
+      4    0.00%  prelude-duplicate-and-comment-current-line-or-region C-c M-d
+      4    0.00%  4clojure-open-question                               
+      4    0.00%  cider-quit                                           
+      3    0.00%  proced                                               C-x p
+      3    0.00%  ido-write-file                                       C-x C-w, <menu-bar> <file> <write-file>
+      3    0.00%  mouse-save-then-kill                                 <S-mouse-1>, <mouse-3>
+      3    0.00%  make-frame                                           <ns-new-frame>, s-n
+      3    0.00%  ibuffer-do-kill-lines                                
+      3    0.00%  wdired-finish-edit                                   
+      3    0.00%  isearch-other-meta-char                              
+      3    0.00%  css-indent-line                                      
+      3    0.00%  widget-field-activate                                
+      3    0.00%  markdown-shifttab                                    
+      3    0.00%  browse-url-of-region                                 
+      3    0.00%  te-pass-through                                      
+      3    0.00%  magit-stage-item                                     
+      3    0.00%  magit-log-edit                                       
+      3    0.00%  git-commit-commit                                    
+      3    0.00%  completion-at-point                                  C-M-i
+      3    0.00%  dired-sort-toggle-or-edit                            
+      3    0.00%  comint-previous-input                                
+      3    0.00%  comint-delchar-or-maybe-eof                          
+      3    0.00%  mark-sexp                                            C-M-@, C-M-SPC
+      3    0.00%  eval-buffer                                          <menu-bar> <emacs-lisp> <eval-buffer>
+      3    0.00%  cua-move-rectangle-left                              
+      3    0.00%  cua-move-rectangle-right                             
+      3    0.00%  org-iswitchb                                         
+      3    0.00%  backward-page                                        C-x [
+      3    0.00%  forward-page                                         C-x ]
+      3    0.00%  just-one-space                                       M-SPC
+      3    0.00%  previous-buffer                                      <XF86Back>, C-x <C-left>, C-x <left>, <menu-bar> <buffer> <previous-buffer>
+      3    0.00%  prelude-view-url                                     C-c u, <menu-bar> <tools> <Prelude> <General> <View URL>
+      3    0.00%  backward-up-list                                     <C-M-up>, ESC <C-up>
+      3    0.00%  repeat                                               C-x z
+      3    0.00%  paredit-backward                                     
+      3    0.00%  paredit-backward-down                                
+      3    0.00%  lisp-complete-symbol                                 
+      3    0.00%  javascript-mode                                      
+      3    0.00%  indent-new-comment-line                              C-M-j, M-j
+      3    0.00%  prelude-rename-file-and-buffer                       C-c r, <menu-bar> <tools> <Prelude> <Files> <Rename file and buffer>
+      3    0.00%  projectile-dired                                     C-c p D, <menu-bar> <tools> <Projectile> <Open project in dired>
+      3    0.00%  cider                                                
+      3    0.00%  helm-select-action                                   
+      3    0.00%  beginning-of-defun                                   <C-M-home>, C-M-a, ESC <C-home>
+      3    0.00%  helm-locate                                          
+      3    0.00%  prelude-smart-open-line                              <S-return>, M-o
+      3    0.00%  cua-replace-region                                   
+      3    0.00%  cider-eval-region                                    
+      3    0.00%  describe-mode                                        C-h m, <f1> m, <help> m, <menu-bar> <help-menu> <describe> <describe-mode>
+      3    0.00%  projectile-replace                                   C-c p r, <menu-bar> <tools> <Projectile> <Replace in project>
+      3    0.00%  clojure-cheatsheet                                   
+      2    0.00%  cider-interrupt                                      
+      2    0.00%  undo-tree-redo                                       C-?, M-_, <menu-bar> <edit> <redo>, C-S-z
+      2    0.00%  cider-eval-buffer                                    
+      2    0.00%  new-frame                                            
+      2    0.00%  menu-bar-mode                                        <f12>
+      2    0.00%  ibuffer-backward-line                                
+      2    0.00%  cider-repl-set-ns                                    
+      2    0.00%  uncomment-region                                     
+      2    0.00%  helm-next-page                                       
+      2    0.00%  customize                                            <ns-show-prefs>, s-,, <menu-bar> <options> <customize> <customize>
+      2    0.00%  markdown-insert-list-item                            
+      2    0.00%  move-text-up                                         <M-S-up>, <C-S-up>
+      2    0.00%  move-text-down                                       <M-S-down>, <C-S-down>
+      2    0.00%  open-line                                            C-o, <insertline>
+      2    0.00%  ido-list-directory                                   C-x C-d
+      2    0.00%  load-theme                                           
+      2    0.00%  terminal-emulator                                    
+      2    0.00%  show-paren-mode                                      <menu-bar> <options> <highlight-paren-mode>
+      2    0.00%  nrepl-macroexpand-1                                  
+      2    0.00%  paredit-splice-sexp-killing-backward                 
+      2    0.00%  dired-do-rename                                      
+      2    0.00%  finder-exit                                          
+      2    0.00%  lisp-describe-sym                                    
+      2    0.00%  dired-tree-up                                        
+      2    0.00%  compare-windows                                      <menu-bar> <tools> <compare> <window>
+      2    0.00%  erc-button-click-button                              
+      2    0.00%  nrepl-next-matching-input                            
+      2    0.00%  help-go-back                                         
+      2    0.00%  nrepl-ritz-line-breakpoint                           
+      2    0.00%  paredit-forward-delete                               
+      2    0.00%  cua-incr-rectangle                                   
+      2    0.00%  close-rectangle                                      
+      2    0.00%  save-buffers-kill-terminal                           C-x C-c, <menu-bar> <file> <exit-emacs>
+      2    0.00%  ediff-buffers                                        <menu-bar> <tools> <compare> <ediff-buffers>
+      2    0.00%  apropos                                              C-h A, <f1> A, <help> A, <menu-bar> <help-menu> <search-documentation> <find-any-object-by-name>
+      2    0.00%  clojure-display-inferior-lisp-buffer                 
+      2    0.00%  paredit-forward-up                                   
+      2    0.00%  nrepl-ritz-breakpoints                               
+      2    0.00%  magit-key-mode-popup-logging                         
+      2    0.00%  prelude-duplicate-current-line-or-region             C-c d, <menu-bar> <tools> <Prelude> <Editing> <Duplicate line or region>
+      2    0.00%  exit-recursive-edit                                  C-M-c
+      2    0.00%  linum-mode                                           
+      2    0.00%  ibuffer-mark-forward                                 
+      2    0.00%  prelude-eval-and-replace                             C-c e, <menu-bar> <tools> <Prelude> <Editing> <Eval and replace>
+      2    0.00%  sp-remove-active-pair-overlay                        
+      2    0.00%  delete-horizontal-space                              M-\
+      2    0.00%  nrepl-dbg-invoke-restart-2                           
+      2    0.00%  dired-toggle-read-only                               
+      2    0.00%  abort-recursive-edit                                 C-]
+      2    0.00%  next-error                                           C-x `, M-g n, M-g M-n
+      2    0.00%  toggle-input-method                                  C-\, <menu-bar> <options> <mule> <toggle-input-method>
+      2    0.00%  prelude-find-user-init-file                          C-c I
+      2    0.00%  cider-eval-ns-form                                   
+      2    0.00%  set-goal-column                                      C-x C-n
+      2    0.00%  cider-jump-back                                      
+      2    0.00%  cider-jump                                           
+      1    0.00%  helm-eval-expression-with-eldoc                      
+      1    0.00%  scroll-other-window                                  <M-next>, C-M-v, ESC <next>
+      1    0.00%  prelude-fullscreen                                   <f11>
+      1    0.00%  cider-close-ancilliary-buffers                       
+      1    0.00%  ido-find-file-read-only                              C-x C-r
+      1    0.00%  cider-repl-toggle-pretty-printing                    
+      1    0.00%  js-eval-defun                                        
+      1    0.00%  web-mode-buffer-indent                               
+      1    0.00%  prelude-ido-goto-symbol                              C-c i
+      1    0.00%  projectile-recentf                                   C-c p e, <menu-bar> <tools> <Projectile> <Recent files>
+      1    0.00%  projectile-compile-project                           C-c p c, <menu-bar> <tools> <Projectile> <Compile project>
+      1    0.00%  projectile-commander                                 C-c p m
+      1    0.00%  cider-switch-to-relevant-repl-buffer                 
+      1    0.00%  text-scale-decrease                                  C--
+      1    0.00%  text-scale-increase                                  C-+
+      1    0.00%  mark-page                                            C-x C-p
+      1    0.00%  markdown-mode                                        
+      1    0.00%  paredit-wrap-angled                                  
+      1    0.00%  ido-toggle-ignore                                    
+      1    0.00%  wdired-change-to-wdired-mode                         
+      1    0.00%  mouse-delete-window                                  <mode-line> <mouse-3>
+      1    0.00%  helm-previous-page                                   
+      1    0.00%  css-mode                                             
+      1    0.00%  widget-forward                                       
+      1    0.00%  Custom-no-edit                                       
+      1    0.00%  visual-line-mode                                     
+      1    0.00%  whitespace-cleanup                                   
+      1    0.00%  ispell                                               s-:
+      1    0.00%  global-whitespace-mode                               
+      1    0.00%  save-some-buffers                                    C-x s
+      1    0.00%  eval-defun                                           C-M-x
+      1    0.00%  ibuffer-do-view                                      
+      1    0.00%  debugger-frame                                       
+      1    0.00%  dabbrev-completion                                   C-M-/
+      1    0.00%  undo                                                 C-_, C-/, <menu-bar> <edit> <undo>, C-z, s-z, <undo>
+      1    0.00%  prelude-top-join-line                                s-j, C-^
+      1    0.00%  recentf-open-files                                   
+      1    0.00%  erc-join-channel                                     
+      1    0.00%  kill-ring-save                                       <C-insertchar>, <C-insert>, M-w
+      1    0.00%  paredit-forward-kill-word                            
+      1    0.00%  zap-to-char                                          M-z
+      1    0.00%  magit-revert-item                                    
+      1    0.00%  lisp-eval-last-sexp                                  
+      1    0.00%  ibuffer-unmark-forward                               
+      1    0.00%  paredit-splice-sexp-killing-forward                  
+      1    0.00%  cua-paste-pop                                        M-y
+      1    0.00%  suspend-frame                                        C-x C-z
+      1    0.00%  delete-rectangle                                     C-x r d
+      1    0.00%  dired-create-directory                               
+      1    0.00%  shrink-window-horizontally                           C-x {
+      1    0.00%  about-emacs                                          C-h C-a, <f1> C-a, <help> C-a, <menu-bar> <help-menu> <about-emacs>
+      1    0.00%  next-matching-history-element                        
+      1    0.00%  describe-key-briefly                                 C-h c, <f1> c, <help> c
+      1    0.00%  kill-rectangle                                       C-x r k
+      1    0.00%  cua-close-rectangle                                  
+      1    0.00%  expand-abbrev                                        C-x ', C-x a ', C-x a e
+      1    0.00%  nrepl-dbg-quit                                       
+      1    0.00%  nrepl-ritz-exception-filters                         
+      1    0.00%  projectile-regenerate-tags                           C-c p R, <menu-bar> <tools> <Projectile> <Regenerate etags>
+      1    0.00%  paredit-split-sexp                                   
+      1    0.00%  paredit-backward-slurp-sexp                          
+      1    0.00%  cua-help-for-rectangle                               
+      1    0.00%  ibuffer-forward-line                                 
+      1    0.00%  cua-cut-rectangle-as-text                            
+      1    0.00%  cua-copy-rectangle                                   
+      1    0.00%  ediff-quit                                           
+      1    0.00%  ediff-toggle-help                                    
+      1    0.00%  minibuffer-complete-and-exit                         
+      1    0.00%  transpose-chars                                      C-t
+      1    0.00%  markdown-kill-thing-at-point                         
+      1    0.00%  nrepl-clear-buffer                                   
+      1    0.00%  markdown-show-version                                
+      1    0.00%  markdown-preview                                     
+      1    0.00%  eval-region                                          <menu-bar> <emacs-lisp> <eval-region>
+      1    0.00%  mouse-buffer-menu                                    <C-down-mouse-1>
+      1    0.00%  dired-isearch-filenames-regexp                       
+      1    0.00%  find-user-init-file                                  
+      1    0.00%  nrepl-jump                                           
+      1    0.00%  nrepl-jump-back                                      
+      1    0.00%  nrepl-restart                                        
+      1    0.00%  url-view-url                                         
+      1    0.00%  magit-copy-item-as-kill                              
+      1    0.00%  nrepl-src                                            
+      1    0.00%  erc-iswitchb                                         
+      1    0.00%  version                                              
+      1    0.00%  widget-button-press                                  
+      1    0.00%  ispell-next                                          s-;
+      1    0.00%  ibuffer-forward-filter-group                         
+      1    0.00%  prelude-cleanup-buffer                               C-c n, <menu-bar> <tools> <Prelude> <Buffers> <Clean up buffer>
+      1    0.00%  ido-magic-delete-char                                
+      1    0.00%  global-visual-line-mode                              
+      1    0.00%  url-setup-privacy-info                               
+      1    0.00%  upcase-word                                          M-u
+      1    0.00%  ido-insert-file                                      C-x i, <menu-bar> <file> <insert-file>
+      1    0.00%  ispell-word                                          M-$, <menu-bar> <edit> <spell> <ispell-word>, <menu-bar> <tools> <spell> <ispell-word>
+      1    0.00%  ibuffer-visit-buffer-other-window                    
+      1    0.00%  nrepl-quit                                           
+      1    0.00%  package-menu-mark-unmark                             
+      1    0.00%  nrepl-eval-expression-at-point                       
+      1    0.00%  nrepl-dbg-invoke-restart-3                           
+      1    0.00%  dired-show-file-type                                 
+      1    0.00%  dired-do-shell-command                               
+      1    0.00%  goto-line                                            s-l, M-g g, M-g M-g, <menu-bar> <edit> <goto> <go-to-line>
+      1    0.00%  comment-or-uncomment-region                          
+      1    0.00%  ace-jump-mode                                        C-c SPC
+      1    0.00%  projectile-find-file-in-directory                    C-c p l, <menu-bar> <tools> <Projectile> <Find file in directory>
+      1    0.00%  projectile-find-tag                                  C-c p j
+      1    0.00%  cider-ping                                           
+      1    0.00%  ido-vertical-mode                                    
+      1    0.00%  js-indent-line                                       
+      1    0.00%  helm-M-x                                             
+      1    0.00%  tmm-menubar                                          M-`
+      1    0.00%  sp-forward-slurp-sexp                                <C-right>, C-)
+      1    0.00%  describe-copying                                     C-h C-c, <f1> C-c, <help> C-c, <menu-bar> <help-menu> <describe-copying>
+      1    0.00%  cider-repl-clear-output                              
+      1    0.00%  kmacro-cycle-ring-next                               C-x C-k C-n
+      1    0.00%  clojure-test-clear                                   
+      1    0.00%  cider-version                                        

@@ -1,0 +1,5 @@
+;; -*- coding: utf-8-unix -*-
+;; Automatically written history of CIDER REPL session
+;; Edit at your own risk
+
+("(doc filter)" "anagram.core/smdict" "(anagram.core/smdict)" "(smdict)" "smdict" "(anagram.core/process-dictionary anagram.core/wordfile)" "(smdict)" "smdict" "(anagram.core/smdict)" "(foo.core/somefunc \"p\")" "(foo.core/somefunc)" "(foo.core/somefunc p)" "(foo.core/footz 10)" "(foo.core/somefunc x)" "(foo.core/somefunc re )" "foo.core/somefunc" "(word-vec)" " " "word-vec" "  (anagram.core/process-dictionary)" " (anagram.core/process-dictionary)" "(anagram.core/process-dictionary)" ":cljs/quit" "(cemerick.austin.repls/exec)" "(read-worldlist wordlist.txt)" "(all-ns)" "(dir)" "(doc dir)" "(apply require clojure.main/repl-requires)" "(in-ns user)" "(doc filter)" "(doc dir)" "(dir)" "(all-ns)" "(dir)" "dir" "ir" "(in-ns)" "(doc slurp)" "(doc filter)" "(doc assoc) " "(doc some)" "(doc contains?)")
