@@ -386,6 +386,7 @@
 ;; Sets the mac function key to "control" in emacs
 ;; it's easier to hit the fn key than the control key on the mac keyboard
 ;; Example : (global-set-key (kbd "H-b") 'backward-word) ; H is for hyper
+;; This still allows you to select the function keys 
 (setq ns-function-modifier 'control)
 
 ;;; How to Remove or Alter Minor Mode Keybindings from Minor Mode Keymaps
@@ -455,6 +456,9 @@
 ;;; Set the frame size
 (if window-system
     (set-frame-size (selected-frame) 120 56)nil)
+
+;;; Use the srgb colorspace
+(setq ns-use-srgb-colorspace t)
 
 (provide 'personal)
 ;;; personal.el ends here
