@@ -219,7 +219,7 @@
 ;; Prevent the auto-display of the REPL buffer in a separate window after connection
 ;; (setq cider-repl-pop-to-buffer-on-connect nil)
 ;; Stop the error buffer from popping up while working in buffers other than the REPL:
-(setq cider-popup-stacktraces nil)
+(setq cider-show-error-buffer nil)
 ;; Enable error buffer popping also in the REPL:
 ;; (setq cider-repl-popup-stacktraces t)
 
@@ -462,3 +462,6 @@
 
 (provide 'personal)
 ;;; personal.el ends here
+
+;;; Emacs ERC (IRC Client)
+(setq erc-hide-list '("JOIN" "PART" "QUIT"))
