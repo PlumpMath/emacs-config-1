@@ -100,6 +100,10 @@
   (indent-region (point-min)
                  (point-max)))
 
+(defun inf-cljs-repl ()
+  (interactive)
+  (run-clojure "java -cp cljs.jar clojure.main repl.clj"))
+
 ;;(global-set-key (kbd "M-Q") 'reindent-whole-buffer)
 
 
@@ -278,6 +282,10 @@
 ;; ;; Use ac-nrepl-popup-doc to show in-line docs in a repl buffer
 ;; (eval-after-load "cider"
 ;;   '(define-key cider-repl-mode-map (kbd "C-c C-d") 'ac-nrepl-popup-doc))
+
+;; Reformat Lisp Buffers (Doesn't appear to work as advertised)
+;; (require 'srefactor)
+;; (global-set-key (kbd "C-c C-f") 'srefactor-lisp-format-buffer)
 
 ;;; ### AppleScript Mode
 (autoload 'applescript-mode "applescript-mode"

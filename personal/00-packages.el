@@ -16,6 +16,7 @@
                                  auto-complete
                                  ido-vertical-mode
                                  ag
+                                 srefactor
                                  ) prelude-packages))
 
 ;; Install my packages
